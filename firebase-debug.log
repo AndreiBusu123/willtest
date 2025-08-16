@@ -332,3 +332,187 @@
 [debug] [2025-08-16T08:38:06.222Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [omitted]
 [debug] [2025-08-16T08:38:06.224Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
 [debug] [2025-08-16T08:38:06.224Z] > authorizing via signed-in user (busuioanandrei@gmail.com)
+[debug] [2025-08-16T08:43:39.762Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.764Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.765Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [none]
+[debug] [2025-08-16T08:43:39.765Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.780Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.780Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.780Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.780Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.781Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.782Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.783Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [none]
+[debug] [2025-08-16T08:43:39.783Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] Checked if tokens are valid: true, expires at: 1755337083877
+[debug] [2025-08-16T08:43:39.790Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [none]
+[debug] [2025-08-16T08:43:39.790Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.791Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [none]
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [none]
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.792Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.793Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [none]
+[debug] [2025-08-16T08:43:39.794Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com x-goog-quota-user=projects/docket2-332b0
+[debug] [2025-08-16T08:43:40.510Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com 403
+[debug] [2025-08-16T08:43:40.511Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:40.512Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com 403
+[debug] [2025-08-16T08:43:40.512Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:40.512Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ 403
+[debug] [2025-08-16T08:43:40.512Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [omitted]
+[debug] [2025-08-16T08:43:41.319Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com 403
+[debug] [2025-08-16T08:43:41.319Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.320Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com 403
+[debug] [2025-08-16T08:43:41.320Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.497Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com 403
+[debug] [2025-08-16T08:43:41.497Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.498Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com 403
+[debug] [2025-08-16T08:43:41.498Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.498Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com 403
+[debug] [2025-08-16T08:43:41.498Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [omitted]
+[debug] [2025-08-16T08:43:41.499Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com 403
+[debug] [2025-08-16T08:43:41.499Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.500Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com 403
+[debug] [2025-08-16T08:43:41.500Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.612Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com 403
+[debug] [2025-08-16T08:43:41.612Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.613Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com 403
+[debug] [2025-08-16T08:43:41.613Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.615Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com 403
+[debug] [2025-08-16T08:43:41.615Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.616Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ 403
+[debug] [2025-08-16T08:43:41.616Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [omitted]
+[debug] [2025-08-16T08:43:41.616Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com 403
+[debug] [2025-08-16T08:43:41.616Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/fcm.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.617Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com 403
+[debug] [2025-08-16T08:43:41.617Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:41.715Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ 403
+[debug] [2025-08-16T08:43:41.715Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/ [omitted]
+[debug] [2025-08-16T08:43:42.418Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com 403
+[debug] [2025-08-16T08:43:42.418Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.546Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com 403
+[debug] [2025-08-16T08:43:42.546Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.546Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com 403
+[debug] [2025-08-16T08:43:42.546Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.547Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com 403
+[debug] [2025-08-16T08:43:42.547Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com 403
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com 403
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com 403
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com 403
+[debug] [2025-08-16T08:43:42.548Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebasecrashlytics.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com 403
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [omitted]
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com 403
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com 403
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/storage.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com 403
+[debug] [2025-08-16T08:43:42.549Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firestore.googleapis.com [omitted]
+[debug] [2025-08-16T08:43:42.559Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-16T08:43:42.559Z] > authorizing via signed-in user (busuioanandrei@gmail.com)
+[debug] [2025-08-16T08:43:42.560Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com 403
+[debug] [2025-08-16T08:43:42.560Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/docket2-332b0/services/firebaseio.com [omitted]
+[debug] [2025-08-16T08:43:42.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-16T08:43:42.562Z] > authorizing via signed-in user (busuioanandrei@gmail.com)
