@@ -1,0 +1,105 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  database:
+    image: postgres:15-alpine
+    container_name: therapeutic-ai-db
+    environment:
+      POSTGRES_DB: therapeutic_ai
+      POSTGRES_USER: ${DB_USER:-therapeutic_ai}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-secure_password_123}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./src/backend/database/init:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    networks:
+      - therapeutic-ai-network
+    restart: unless-stopped
+
+  # Backend API Server
+  backend:
+    build: 
+      context: ./src/backend
+      dockerfile: Dockerfile
+    container_name: therapeutic-ai-backend
+    environment:
+      NODE_ENV: production
+      DB_HOST: database
+      DB_PORT: 5432
+      DB_NAME: therapeutic_ai
+      DB_USER: ${DB_USER:-therapeutic_ai}
+      DB_PASSWORD: ${DB_PASSWORD:-secure_password_123}
+      JWT_SECRET: ${JWT_SECRET:-your_jwt_secret_here}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ELEVENLABS_API_KEY: ${ELEVENLABS_API_KEY}
+      PORT: 3001
+    ports:
+      - "3001:3001"
+    depends_on:
+      - database
+    networks:
+      - therapeutic-ai-network
+    volumes:
+      - ./src/backend/uploads:/app/uploads
+      - ./src/backend/logs:/app/logs
+    restart: unless-stopped
+
+  # Frontend React Application
+  frontend:
+    build:
+      context: ./src/frontend
+      dockerfile: Dockerfile
+    container_name: therapeutic-ai-frontend
+    environment:
+      REACT_APP_API_URL: ${API_URL:-http://localhost:3001}
+      REACT_APP_WS_URL: ${WS_URL:-ws://localhost:3001}
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - therapeutic-ai-network
+    restart: unless-stopped
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    container_name: therapeutic-ai-nginx
+    ports:
+      - "3443:443"
+      - "80:80"
+    volumes:
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./config/nginx/ssl:/etc/nginx/ssl
+      - ./src/frontend/build:/var/www/html
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - therapeutic-ai-network
+    restart: unless-stopped
+
+  # Redis for Session Management (Optional)
+  redis:
+    image: redis:7-alpine
+    container_name: therapeutic-ai-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - therapeutic-ai-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  therapeutic-ai-network:
+    driver: bridge
